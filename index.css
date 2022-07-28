@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+* {
+  margin: 0;
+}
+
+svg {
+  width: 1vw;
+  fill: #00bdfe;
+}
+/* svg:hover
+{
+  fill: white;
+} */
+.background_img {
+  background-image: url(https://templatemo.com/templates/templatemo_576_snapx_photography/assets/images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  background: #fff;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Baloo 2', cursive;
+}
+.navbar_elements
+{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00bdfe;
+  font-size: 19px;
+}
+a {
+  padding: 0vh 1vw;
+  text-decoration: none;
+  color: white;
+}
+button
+{
+  padding: 1vh 2vw;
+  color: #00bdfe;
+font-size: larger;
+border: none;
+background: transparent;
+border: 2px solid #00bdfe;
+border-radius: 9px;
+}
+button:hover
+{
+  background-color: #00bdfe;
+  color: white;
+  fill: white;
+  cursor: pointer;
+}
+.background_content
+{
+  /* border: 2px solid red; */
+position: absolute;
+top: 30vh;
+left: 11vw;
+right: 11vw;
+}
+
+.background_content_h2
+{
+  font-size: 5vw;
+  text-align: center;
+  color: white;
+}
+.background_content_hr
+{
+  margin: 4vh 0vw;
+width: 65vw;
+margin: auto;
+}
+.background_content_p
+{
+  color: darkgrey;
+font-size: larger;
+text-align: center;
+margin-top: 4vh;
+margin: 3vh 4vw;
+}
+.background_content_button
+{
+  margin: 0vh 14vw;
+  padding: 2vh 2vw;
+  border: 2px solid white;
+  color: white;
+}
+.background_content_button:hover
+{
+  background-color: white;
+  color: #00bdfe;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.background_content_p1
+{
+  display: inline-block;
+  color: white;
+}
+#bg_c_svg
+{
+  fill: white;
+  width: 8.5px;
+  padding: 0vh 1vw;
+}
