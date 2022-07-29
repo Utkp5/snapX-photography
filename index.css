@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 * {
   margin: 0;
+  font-family: 'Baloo 2', cursive;
 }
 
 svg {
@@ -45,6 +46,7 @@ button
   color: #00bdfe;
 font-size: larger;
 border: none;
+font-family: 'Baloo 2', cursive;
 background: transparent;
 border: 2px solid #00bdfe;
 border-radius: 9px;
@@ -52,6 +54,7 @@ border-radius: 9px;
 button:hover
 {
   background-color: #00bdfe;
+  transition: all 0.5s;
   color: white;
   fill: white;
   cursor: pointer;
@@ -109,4 +112,225 @@ margin: 3vh 4vw;
   fill: white;
   width: 8.5px;
   padding: 0vh 1vw;
+}
+.photo_div
+{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 7vh;
+}
+.photo_div_img
+{
+  border-radius: 8px;
+}
+.photo_div_img:hover
+{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+#p
+{
+  color: #00bdfe;
+  margin: 0vh 3vw;
+  margin-top: 35vh;
+}
+#text_button{
+  display: flex;
+  justify-content: space-between;
+}
+.text_button_p
+{
+  font-size: 2.5vw;
+  margin-left: 2.5vw;
+}
+.color_set
+{
+  color: #00bdfe;
+}
+.card
+{
+  border: 2px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: column;
+  width: 18vw;
+  height: 60vh;
+  border-radius: 11px;
+  padding: 2vw;
+  border: 2px solid gainsboro;
+}
+.card_sub
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 19vw;
+}
+.card_sub_p
+{
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.card_p
+{
+  font-size: larger;
+  color: gray;
+}
+.card_conatiner
+{
+  margin: 15vh 3vw;
+  display: flex;
+  width: 95vw;
+  justify-content: space-between;
+}
+.card_icon
+{
+ width: 4vw; 
+}
+#card_icon
+{
+  height: 8vh;
+}
+.card_img
+{
+  width: 19vw;
+  border-radius: 13px;
+}
+.cards
+{
+padding-left: 2vw;
+}
+
+.winner_contest
+{
+  background-image: url(https://templatemo.com/templates/templatemo_576_snapx_photography/assets/images/closed-bg.jpg);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  height: 120vh;
+  background-size: cover;
+  width: 95vw;
+  margin-left: 2.5vw;
+  margin-top: 35vh;
+}
+.winner_contest_div
+{
+  text-align: center;
+  position: relative;
+  top: 10vh;
+}
+.winner_contest_p
+{
+font-size: larger;
+}
+.winner_contest_p1
+{
+  font-size: xx-large;
+  margin-top: 2vh;
+}
+
+.winner_contest_flex
+{
+  margin-top: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.winner_img
+{
+  border-radius: 8px 8px 0px 0px;
+}
+.winner_contest_flex_sub
+{
+  width: 27.1vw;
+  height: 60vh;
+}
+.winner_contest_flex_info
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.winner_contest_flex_info_p1
+{
+  font-size: 4vh;
+}
+.winner_contest_flex_info_p3
+{
+  font-size: 3vh;
+  color: dimgray;
+}
+.winner_button
+{
+  margin: 8vh 38vw;
+}
+
+.our_pricing
+{
+  margin-top: 17vh;
+}
+.our_pricing_div
+{
+  text-align: center;
+}
+.our_pricing_p
+{
+font-size: x-large;
+}
+.our_pricing_p1
+{
+font-size: xx-large;
+}
+.our_pricing_flex
+{
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-around;
+}
+.hr
+{
+  width: 16vw;
+  margin: 5vh auto;
+}
+.our_pricing_flex_sub
+{
+  width: 20vw;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  padding: 3vh 2vw;
+  height: 92vh;
+}
+.pricing_info_p
+{
+  font-size: 4vh;
+  text-align: center;  
+  margin-top: 4vh;
+  font-weight: 600;
+}
+.pricing_info_p1
+{
+  font-size: large;
+  text-align: center;
+}
+.pricing_info_p2
+{
+  font-size: large;
+  text-align: center;
+  color: dimgrey;
+}
+.pricing_info_p3
+{
+  font-size: 6vh;
+  margin: 4vh 0vw;
+  text-align: center;
+}
+.pricing_button
+{
+  width: 17vw;
+  margin: 0vh 1vw;
+}
+.our_pricing_flex_sub:hover{
+  transform: scale(1.01);
+  transition: all 0.5s;
+  box-shadow: 0px 0px 10px 2px black;
 }
