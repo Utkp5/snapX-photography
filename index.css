@@ -334,3 +334,18 @@ font-size: xx-large;
   transition: all 0.5s;
   box-shadow: 0px 0px 10px 2px black;
 }
+footer
+{
+  background-color: #00bdfe;
+  color: white;
+  font-size: x-large;
+  height: 11vh;
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_span
+{
+  color: darkslategray;
+}
